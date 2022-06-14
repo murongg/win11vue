@@ -6,4 +6,5 @@ const wallpaper = useWallpaper()
 <template>
   <Background></Background>
   <BootScreen v-if="wallpaper.booted"></BootScreen>
+  <LockScreen v-if="wallpaper.locked"></LockScreen>
 </template>

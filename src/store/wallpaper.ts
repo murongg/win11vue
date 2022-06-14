@@ -57,7 +57,7 @@ export const useWallpaper = defineStore('wallpaper', {
       this.wps = twps
       this.src = walls[twps]
     },
-    setWallAlock() {
+    setWallAnlock() {
       this.locked = true
       this.dir = -1
     },

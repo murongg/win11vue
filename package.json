@@ -12,6 +12,8 @@
   "dependencies": {
     "@vueuse/core": "^8.6.0",
     "pinia": "^2.0.14",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15"
   },
