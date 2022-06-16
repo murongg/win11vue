@@ -8,12 +8,14 @@ declare module '@vue/runtime-core' {
     Background: typeof import('./src/components/Background.vue')['default']
     BootScreen: typeof import('./src/components/BootScreen.vue')['default']
     DesktopApp: typeof import('./src/components/DesktopApp.vue')['default']
-    DesktopIcon: typeof import('./src/components/DesktopIcon.vue')['default']
     Icon: typeof import('./src/components/Icon.vue')['default']
     Image: typeof import('./src/components/Image.vue')['default']
     LockScreen: typeof import('./src/components/LockScreen.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Taskbar: typeof import('./src/components/Taskbar.vue')['default']
+    TaskBar: typeof import('./src/components/TaskBar.vue')['default']
+    TaskIcon: typeof import('./src/components/TaskIcon.vue')['default']
   }
 }
 

@@ -297,3 +297,5 @@ export const APPS = [{
 export const DEFAUILT_DESKDTOP_APPS = ["Blue", "Unescape", "Recycle Bin", "File Explorer", "Store",
   "Browser", "Github", "Spotify", "Buy me a coffee"
 ]
+
+export const DEFAULT_TASKBAR_APPS = ["Settings", "File Explorer", "Edge", "Store", "Spotify"]

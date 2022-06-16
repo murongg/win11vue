@@ -11,5 +11,6 @@ const wallpaper = useWallpaper()
     <div absolute w-screen top-0 overflow-hidden class="h-[calc(100%-48px)]" data-menu="desk">
       <DesktopApp></DesktopApp>
     </div>
+    <TaskBar></TaskBar>
   </div>
 </template>
